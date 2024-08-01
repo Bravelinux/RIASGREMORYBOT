@@ -16,18 +16,18 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Toxic1239/RIASGREMORYBOT";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BRQoeEsl0U";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BRQoeEsl0U";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/e07fa9dfd176ce3a2886a.jpg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/9db5c28f3428c8dc7a85e.jpg";
 global.devs = "2348086541281";
-global.sudo = process.env.SUDO || "2348086541281";
-global.owner = process.env.OWNER_NUMBER || "2348086541281";
+global.sudo = process.env.SUDO || "254769279076";
+global.owner = process.env.OWNER_NUMBER || "254769279076";
 global.style = process.env.STYLE || "1";
 global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/e07fa9dfd176ce3a2886a.jpg";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/a90b5478b5e56e67f0155.jpg";
 global.waPresence = process.env.WAPRESENCE || "recording";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -45,14 +45,14 @@ global.SESSION_ID =
   "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT0NmNjEwRXhUYlMrRGJzeGF6VE8rekd6MzZhVmgzM3kxZ3NFMUYzVWsyYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaXpvbHVpZWloVnZkUHkzMFIvcElsMkJnV2h3MVZpRURqeGZSeWNTL2EyQT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJrRmpPcGdDMEJ2dzQwS0NFK3p3Z215amZLK3BKVEFhVWZtdjZiRHNvelVzPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIwdGM5c244RWFWTVNBbDV6MmlGSmJLVTROeU53RjYwakhXY0JnejVreUVVPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1OSWk3R0NLdDJXbFlVZWNCVU5PTUM3YXoyMU9RWjFXMVEwY0pRUnN4bVE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImZjUFZqVm54WVFDaityYnUzdHBJQlJDTzVVb2EzN0dYRnc0d0dNcmxKQk09In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia1BZRi8xWGpzRG5hVjlGbmFQSzhha1ZiY3pHMU9oL1ZYQkc3QVhBZ2RWTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSFNXSGpsc1ZpaGk3c2g3Vm90cytVWmRiYUtKZXJXRHcvUWVqV1JOL2x4ND0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkY4TVREYjlvMHVleHVLangvNFk1Um9DTnUwUnI2WmMzOTQrOHluWUIrT3RqSFlDTk5iTmtuUXF3ZUtwRWlhR2syckE3K3V4TzJ5S1lQR2cvbWZQQ2h3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTE3LCJhZHZTZWNyZXRLZXkiOiJodlNKa2p0ZUlpRmx6THRob3VPT0Zzd0RRT3YyZWtFT2YwZjVEVDNycjJBPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJoTXl3QzY4V1JMS2xybllidnEwbzlnIiwicGhvbmVJZCI6IjA5NDgxNzVlLWQ5YzMtNGIwOC05MDM0LWJiNDE0YTUwZmE1NCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ0T3Q5QzRLMHBTWEdxL3l5SEU5U0UrUURGUkk9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicE93eEZPYjV3dUpIKzJabnhCSG9nVjJaTFhRPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjU0SjlGSlJUIiwibWUiOnsiaWQiOiIyNTQ3NjkyNzkwNzY6NzdAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ1B1T2tKQUJFT3FWckxVR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IlpIZGRCbE5YcEx6N2VMQU91Kzl5U3AxOFR6TGZHR24zYko2UGJQdFVvanM9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkVGNE1sZmxBeW9qY2VaOGhOK1hERGRlWHd5SzJIR3VzczVzbTBjWGdSdVB0QVcwWWhtMTN4TGloWXpPdU9rZDBmRlYvbmdRVUt5VDVjRUxrR29tbkJRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJTUVcwNm03WEltQkJoT0NPYVJqeGRNa2RxZXBHVFdIejdtV2dnazFyajliZVcxWXF2bDhBd2RZQS8rWTN3MHJQQXRJMitCVHhudll2QkZ5cUxlOFpqZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NDc2OTI3OTA3Njo3N0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJXUjNYUVpUVjZTOCszaXdEcnZ2Y2txZGZFOHkzeGhwOTJ5ZWoyejdWS0k3In19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIyNDg1NDk1fQ=="
 module.exports = {
   menu: process.env.MENU || "1",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.3.1",
   caption: process.env.CAPTION || "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗧𝗢𝗫𝗫𝗜𝗖 𝗕𝗢𝗬",
   author: process.env.PACK_AUTHER || "ᴛᴏxxɪᴄ ᴍᴅ",
   packname: process.env.PACK_NAME || "𝗥𝗜𝗔𝗦 𝗠𝗗",
-  botname: process.env.BOT_NAME || "𝗥𝗜𝗔𝗦 𝗚𝗥𝗘𝗠𝗢𝗥𝗬",
-  ownername: process.env.OWNER_NAME || "ᴛᴏxxɪᴄ",
+  botname: process.env.BOT_NAME || "DAVE",
+  ownername: process.env.OWNER_NAME || "DAxxVE",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "neLbXXrp8bSDcohnp1CW5UEa",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "RIAS").toUpperCase(),
 };
 global.rank = "updated";
