@@ -18,7 +18,7 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BR
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BRQoeEsl0U";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/9db5c28f3428c8dc7a85e.jpg";
 global.devs = "2348086541281";
-global.sudo = process.env.SUDO || "254769279076";
+global.sudo = process.env.SUDO || "254789951753";
 global.owner = process.env.OWNER_NUMBER || "254769279076";
 global.style = process.env.STYLE || "1";
 global.gdbye = process.env.GOODBYE || "false";
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
   LANG: (process.env.THEME || "RIAS").toUpperCase(),
 };
 global.rank = "updated";
